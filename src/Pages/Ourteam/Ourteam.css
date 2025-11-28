@@ -1,0 +1,89 @@
+.Our-team{
+ background-color: rgb(246, 246, 255);
+
+}
+
+.Our-team h2 {
+    color: #1f2278;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.Our-team .img{
+    position: relative;
+    background-color: rgb(251, 250, 250);
+    border: 1px solid transparent; 
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    text-align: center;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.Our-team .img:hover{
+    border: 1px solid #1f2278;
+    background-color: #fff;
+}
+
+
+.Our-team .img img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 45px;
+}
+
+.Our-team .img::before{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 190px;
+    height: 190px;
+    border: 2px solid #cbd5ff;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    z-index: -1;
+}
+
+.Our-team h3{
+    font-size: 20px;
+    color: #1f2278;
+    font-weight: 700;
+}
+
+
+.Our-team p{
+    color: #ff7a00;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Our-team .socialmedia ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.Our-team .socialmedia ul li{
+    list-style: none;
+}
+
+.Our-team .socialmedia ul li img{
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+
+.Our-team .socialmedia ul li img:hover {
+    transform: translateY(-5px); 
+    
+}

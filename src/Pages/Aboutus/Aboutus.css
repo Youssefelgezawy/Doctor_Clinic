@@ -1,0 +1,112 @@
+.About-Us {
+    background-color: rgb(246, 246, 255);
+}
+
+.About-Us .container .addres h2 {
+    color: #1f2278;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.About-Us .container .cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+.About-Us .container .cards .about-img .blog5 {
+    border-radius: 0 20% 20% 25%;
+    margin-right: 20px;
+
+}
+
+
+.About-Us .container .cards .about-img .blog6 {
+    border-radius: 20% 0 25% 20%;
+}
+
+
+.About-Us .container .cards .about-img .blog7 {
+    border-radius: 30% 30% 30% 0;
+    font-size: 200px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+.About-Us .container .cards .about-img p {
+    font-size: 90px;
+    width: 250px;
+    height: 220px;
+    min-height: 150px;
+    background-color: #e6e7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    color: #1f2278;
+    border-radius: 30% 30% 0 40%;
+    margin-left: 260px;
+    position: absolute;
+    top: 65%;
+}
+
+.About-Us .container .cards .about-img p span {
+    display: flex;
+    background-color: #e6e7ff;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+
+
+.About-Us .container .cards .About-card {
+    margin-left: -76px;
+    padding-left: 50px;
+}
+
+.About-Us .container .cards .About-card .top-card h6 {
+    padding-top: 40px;
+    font-size: 20px;
+    color: #f17732;
+    font-weight: 550;
+}
+
+.About-Us .container .cards .About-card .top-card h1 {
+    padding: 30px 0;
+    color: #1f2278;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+
+.button-card {
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.button-card button {
+    flex: 1 1 45%;
+    min-width: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 27px;
+    color: #1f2278;
+    border: 1px solid #1f2278;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 15px;
+    text-align: left;
+}

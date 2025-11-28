@@ -1,0 +1,95 @@
+.Header {
+    padding-top: 20px;
+    background-color: rgb(246, 246, 255);
+}
+
+
+.Header .row {
+    display: flex;
+    align-items: center;
+}
+
+.Header .row h5 {
+    color: rgb(86, 90, 207);
+    padding-left: 20px;
+    font-weight: 600;
+
+}
+
+.Header .row h2 {
+    color: #1f2278;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.4;
+    padding-right: 70px;
+
+}
+
+.Header .row .btn {
+    background-color: #f17732;
+    color: white;
+    padding: 15px 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+
+.Header .row .img-fluid {
+    animation: mover 1s infinite alternate;
+    transition: 5s ease all;
+}
+
+
+.Header .header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Header .header-box .icon {
+    font-size: 50px;
+    color: #5557a3;
+
+}
+
+
+.Header .header-box .icon svg {
+    animation: move 1s infinite alternate;
+    transition: 0.3 s ease all;
+}
+
+
+
+
+/* Hover */
+
+
+.Header .row .btn:hover {
+    background-color: #e98a53;
+}
+
+
+@keyframes mover {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+@keyframes move {
+    0% {
+        transform: rotate(45deg) translateY(0px);
+    }
+
+    100% {
+        transform: rotate(45deg) translateY(-10px);
+    }
+}

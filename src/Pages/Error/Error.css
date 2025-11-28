@@ -1,0 +1,25 @@
+.Error{
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgb(246, 246, 255);
+    
+
+}
+
+.Error h1{
+    font-size: 120px;
+    font-weight: 600;
+    color: #1f2278;
+}
+
+.Error h3{
+    padding: 20px 400px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #1f2278;
+}
+
+.Error p{
+    padding: 20px 500px;
+}

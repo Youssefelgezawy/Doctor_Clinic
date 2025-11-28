@@ -1,0 +1,125 @@
+.Navbar {
+  background-color: rgb(246, 246, 255);
+}
+
+.navbar-nav {
+  margin-right: 0 !important;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: nowrap;
+  padding-left: 0;
+  margin-left: 120px;
+  padding-top: 25px;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 !important;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(86, 90, 207) !important;
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: rgb(86, 90, 207);
+  font-size: 20px;
+}
+
+.navbar-nav .plus {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.navbar-nav .dropdown-item {
+  position: relative;
+  background-color: transparent !important;
+  z-index: 1;
+  overflow: hidden;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+
+.navbar-nav .btnn {
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid rgb(86, 90, 207);
+  color: rgb(86, 90, 207);
+  background: transparent;
+}
+
+
+/* hover */
+
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 5px
+}
+
+.navbar-nav .nav-item.dropdown:hover>.nav-link {
+  color: rgb(241, 119, 50) !important;
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: rgb(241, 119, 50) !important;
+}
+
+.navbar-nav .nav-link:hover .plus {
+  transform: rotate(45deg);
+  color: rgb(241, 119, 50);
+}
+
+
+.navbar-nav .plus:hover {
+  transform: rotate(45deg);
+  color: rgb(241, 119, 50);
+}
+
+
+.navbar-nav .dropdown-item:hover {
+  color: rgb(86, 90, 207) !important;
+  position: relative;
+}
+
+
+.navbar-nav .dropdown-item::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: rgb(86, 90, 207, 0.1);
+  transition: width 0.3s ease-in-out;
+}
+
+
+.navbar-nav .dropdown-item:hover::after {
+  width: 100%;
+}
+
+
+.navbar-nav .nav-item.dropdown:hover .plus {
+  transform: rotate(45deg) !important;
+  color: rgb(241, 119, 50) !important;
+}
+
+
+.navbar-nav .btnn:hover {
+  background: rgb(86, 90, 207);
+  color: white;
+}
+
+.navbar-nav .btnn:hover .bi.bi-chevron-right {
+  background-color: rgb(86, 90, 207) !important;
+}
