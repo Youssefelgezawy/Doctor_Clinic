@@ -83,7 +83,7 @@ function Footer() {
                 <hr />
 
                 <div className="footer-buttom">
-                    <p>Copyright © 2025 Design & Developed by <span>ThemeTrades</span></p>
+                    <p>Copyright © 2025 Design & Developed by <span>Youssef Elgezawy</span></p>
                 </div>
 
             </div>
