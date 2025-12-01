@@ -2,7 +2,7 @@
   "name": "doctorclinic",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://youssefelgezawy.github.io/doctorclinic/",
+  "homepage": "https://github.com/Youssefelgezawy/Doctor_Clinic.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
