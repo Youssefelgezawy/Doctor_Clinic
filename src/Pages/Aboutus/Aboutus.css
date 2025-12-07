@@ -42,7 +42,8 @@
 
 .About-Us .container .cards .about-img p {
     font-size: 90px;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 220px;
     min-height: 150px;
     background-color: #e6e7ff;
@@ -52,8 +53,8 @@
     font-weight: 600;
     color: #1f2278;
     border-radius: 30% 30% 0 40%;
-    margin-left: 260px;
-    position: absolute;
+    margin-left: 0;
+    position: relative;
     top: 65%;
 }
 
@@ -90,14 +91,10 @@
 
 .button-card {
     padding-top: 70px;
-    display: flex;
-    flex-wrap: wrap;
-
 }
 
 .button-card button {
     flex: 1 1 45%;
-    min-width: 200px;
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 27px;
@@ -110,3 +107,36 @@
     padding: 10px 15px;
     text-align: left;
 }
+
+
+@media (max-width: 768px) {
+  .About-Us .container .cards .About-card {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .button-card button {
+    min-width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .About-Us .container .cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .About-Us .container .addres h2 {
+    font-size: 32px;
+  }
+
+  .button-card button {
+    font-size: 18px;
+  }
+}
+

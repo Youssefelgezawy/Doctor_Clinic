@@ -1,25 +1,71 @@
-.Error{
+.Error {
     padding: 100px 0;
     text-align: center;
     background-color: rgb(246, 246, 255);
-    
-
 }
 
-.Error h1{
+.Error h1 {
     font-size: 120px;
     font-weight: 600;
     color: #1f2278;
+    margin-bottom: 20px;
 }
 
-.Error h3{
-    padding: 20px 400px;
+.Error h3 {
     font-size: 40px;
     font-weight: 600;
-    text-align: center;
     color: #1f2278;
+    margin: 0 auto 20px auto;
+    max-width: 800px; 
+    padding: 0 20px;  
 }
 
-.Error p{
-    padding: 20px 500px;
+.Error p {
+    font-size: 18px;
+    color: #1f2278;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+@media (max-width: 992px) {
+    .Error h1 {
+        font-size: 90px;
+    }
+
+    .Error h3 {
+        font-size: 32px;
+    }
+
+    .Error p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Error h1 {
+        font-size: 70px;
+    }
+
+    .Error h3 {
+        font-size: 28px;
+    }
+
+    .Error p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Error h1 {
+        font-size: 50px;
+    }
+
+    .Error h3 {
+        font-size: 22px;
+    }
+
+    .Error p {
+        font-size: 13px;
+    }
 }
